@@ -17,8 +17,28 @@
   transform: rotate(-8deg);
   margin-top: -320px;
   display: flex; 
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  text-align: center; 
+  justify-content: center; /*horizontal flow of content*/
+  align-items: center; /*perpendicular flow of contents*/
   height: 100vh;
+}
+
+/*seperates the icons*/
+.icon-container {
+  display: flex; 
+  justify-content: center;
+  margin-top: -330px;
+  gap: 115px
+}
+
+.project-icons {
+  height: 150px; 
+  width: 150px; 
+  border-radius: 50%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transform: 90deg;
 }
